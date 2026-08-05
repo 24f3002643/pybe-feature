@@ -53,3 +53,23 @@ This markdown file will contain all the project decisions that were during the c
         - How to convert problem into recursion way.
 
 ---
+## Decision 3 : Case Study with Linear Recursion to Introduce the Idea
+
+### Info
+- Date : Aug 5, 2026
+- Status : Current
+
+### Context 
+1. I planned to start the feature through a real life case study. In that case study, there would be one problem to solve and the problem will be solved via recursion approach. 
+2. This approach is to show the recursion as an idea, before introducing the concepts formally.
+
+### Decision
+1. The case study will have linear recursion, instead of recursion involving branching.
+2. Finalized the case study in which a person want to find his row number in movie theatre when there is power failure and theatre is total dark.
+
+### Reason
+1. Recursion with branching involves two concepts : Recursion + Branching.
+2. This would deviate the learner from getting the actual idea of recursion.
+
+
+---

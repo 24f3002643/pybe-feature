@@ -22,3 +22,7 @@
 1. Searched on google regarding recursion, understanding recursion, etc. and read around 30-40 web pages.
 2. Discarded my earlier feature proposal and design, due to its complexity and non-feasibility.
 3. Decided to redesign my feature to keep it small, meaningful and simple.
+
+## Aug 5, 2026
+1. Went through the feature submission of other intern, to get the idea about their approach.
+2. Finalized the case study, for introducing the concept/idea of recursion.
