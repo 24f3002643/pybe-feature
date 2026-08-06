@@ -73,3 +73,26 @@ This markdown file will contain all the project decisions that were during the c
 
 
 ---
+
+## Decision 4 : 3 Steps/Parts of Feature and Its Content
+
+### Info 
+- Date : Aug 6, 2026
+- Status : Current
+
+### Context
+1. The feature had various part like case study, teaching recursion concepts and teaching to design recursive feature.
+2. There is a scarcity of time and resource at present.
+
+### Decision
+1. The entire feature will be divided into 3 steps :
+    - Case Study : To give the idea of recursion.
+    - Teaching Recursion Concepts
+    - Teaching to design recursive function
+2. Extra concepts like call stack, head recursion and tail recursion is dropped in the current feature, but will be present in the feature in future add-on docs.
+
+### Reason 
+1. Breaking down into steps was required to have clarity of what each step will focus on.
+2. Adding concepts like call stack, head recursion and tail recursion will require a significant changes to the current flow design, and would require animation, etc. This is not feasible at present due to scarcity of time and resources.
+
+---

@@ -26,3 +26,10 @@
 ## Aug 5, 2026
 1. Went through the feature submission of other intern, to get the idea about their approach.
 2. Finalized the case study, for introducing the concept/idea of recursion.
+
+## Aug 6, 2026
+1. Decided that the feature will be in three steps/parts :
+    - Step 1 : Case Study
+    - Step 2 : Teaching Recursion concepts
+    - Step 3 : Designing recursive function
+2. Finalized the contents of the step 1, 2 and 3.
