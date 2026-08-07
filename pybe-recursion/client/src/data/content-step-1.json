@@ -1,0 +1,53 @@
+[
+  { "type": "banner", "role": "start", "text": "Let's hear a story, before starting the concept." },
+  {
+    "type": "markdown",
+    "text": "Raghav is watching a movie in a very large theater.\n\nSuddenly, there is a complete power failure, and the theater becomes completely dark. Nothing is visible.\n\nAfter a few moments, an announcement is made:\n\n> **\"Please remain seated. The emergency lights will turn on shortly.\"**\n\nWhile waiting, Raghav becomes curious.\n\n> **\"Which row am I sitting in?\"**"
+  },
+  { "type": "challenge", "text": "How can Raghav find out his row number?" },
+  {
+    "type": "markdown",
+    "text": "Unfortunately, Raghav cannot see anything or leave his seat, so he cannot just walk up and count the rows himself (since it has been announced to stay seated), nor can he just look and count (since it is pitch dark).\n\nThe only option Raghav has is to communicate with the person sitting directly in front of him."
+  },
+  {
+    "type": "ponder",
+    "prompt": "If you were in Raghav's place, how would you find your row number? Take a few moments to come up with a plan, and then click Next to see how Raghav solved this problem.",
+    "reveal": "Let's see how Raghav found his row number."
+  },
+  {
+    "type": "markdown",
+    "text": "Raghav asks the person (Tarun) sitting directly in front of him:\n\n> **\"What row are you sitting in?\"**\n\nThe person (Tarun) in front does not know his row number either! So he asks the person (Amrit) sitting directly in front of him the same question.\n\nBut the person (Amrit) sitting in front of Tarun also does not know his row number. So Amrit asks the person sitting in front of him the same question, and this continues.\n\nThis process continues until the question reaches the person sitting in the first row."
+  },
+  {
+    "type": "ponder",
+    "prompt": "Before we see what happened next, let's check: will this chain of asking questions ever stop?",
+    "reveal": "Yes.\n\nWhen the process reaches the person in the very front, they reach their hand forward to tap the next shoulder, but they feel only empty air.\n\nBecause there is no chair and no person in front of them, they do not ask the question. They immediately reply:\n\n> \"I am sitting in Row 1.\""
+  },
+  {
+    "type": "markdown",
+    "text": "So the question reaches the person sitting in row 1, and he turns back and replies: \"I am sitting in Row 1.\"\n\nThe answer now starts travelling backwards.\n\n- Row 1 tells Row 2, **\"I am in Row 1.\"**\n- Row 2 says, **\"Then I must be in Row 2,\"** and tells Row 3.\n- Row 3 says, **\"Then I must be in Row 3,\"** and tells Row 4.\n\nThis continues until the person (Tarun) sitting directly in front of Raghav says:\n\n> **\"I am in Row 11.\"**\n\nRaghav immediately knows:\n\n> **\"Then I must be in Row 12.\"**"
+  },
+  {
+    "type": "qa-reflection",
+    "intro": "Let's ask some questions to see what happened.",
+    "items": [
+      {
+        "question": "Did everyone follow the same steps?",
+        "answer": "Yes. If they knew their row number, they told it directly. If they did not know, they asked the person sitting in front of them, waited for the answer, and told their own row number by adding one to it."
+      },
+      {
+        "question": "Did everyone solve the same kind of problem?",
+        "answer": "Yes, everyone solved the same problem — finding their own row number."
+      },
+      {
+        "question": "What caused the process to stop?",
+        "answer": "The moment the question reached the person sitting in row 1, it stopped, since there was no one in front of him to ask."
+      },
+      {
+        "question": "Why did everyone have to wait before answering?",
+        "answer": "Each person (except the one in the first row) had to wait, because to find their own row number, they needed the row number of the person sitting in front of them."
+      }
+    ]
+  },
+  { "type": "banner", "role": "end", "text": "Congratulations — unknowingly, you just learned the entire concept of recursion." }
+]

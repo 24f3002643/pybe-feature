@@ -33,3 +33,6 @@
     - Step 2 : Teaching Recursion concepts
     - Step 3 : Designing recursive function
 2. Finalized the contents of the step 1, 2 and 3.
+
+## Aug 7, 2026 
+1. Started vibe-coding the feature.

@@ -1,0 +1,63 @@
+[
+  { "type": "banner", "role": "start", "text": "Step 2: Understanding Recursion" },
+  {
+    "type": "markdown",
+    "text": "In the previous story, every person followed exactly the same strategy to solve the problem.\n\nThis type of problem-solving approach has a name.\n\nIt is called **recursion**."
+  },
+  {
+    "type": "concept",
+    "id": "concept-1",
+    "title": "What is recursion?",
+    "text": "Recursion is a way of solving a problem by solving a smaller problem of the same kind.\n\n> In programming, recursion is implemented by allowing a function to call itself.\n\nLike in the story, Raghav asks Tarun, Tarun asks Amrit, and so on.",
+    "code": "def get_row_number():\n    # code\n    get_row_number()",
+    "codeNote": "This code is an example of recursion, since get_row_number() is calling itself."
+  },
+  {
+    "type": "concept",
+    "id": "concept-2",
+    "title": "Base Case",
+    "text": "Can you recall when the chain of asking questions stopped? It stopped when the question reached the last person.\n\nThis is what is known as the **base case**.\n\n**Base Case:** the condition at which the function will not call itself, and will return a value instead.\n\nLike in the story, the first person was the base case. When the question reached him, he did not ask anyone — he replied \"Row 1\".",
+    "code": "def get_row_number():\n    if is_anyone_sitting_infront_of_me == False:\n        return 1\n    # code\n    get_row_number()",
+    "codeNote": "When the condition is_anyone_sitting_infront_of_me becomes False, that is the base case, and the function returns 1."
+  },
+  {
+    "type": "concept",
+    "id": "concept-3",
+    "title": "Recursive Case",
+    "text": "Why did this chain of asking questions eventually stop? It stopped because every time a person asked the question, it moved closer to the person sitting in the first row (the base case).\n\nThis is what is known as the **recursive case**.\n\n**Recursive Case:** the part where the same problem is solved again, but in a smaller form that moves closer to the base case.",
+    "code": "def get_row_number():\n    if is_anyone_sitting_infront_of_me == False:\n        return 1\n    return 1 + get_row_number()"
+  },
+  {
+    "type": "concept-map",
+    "intro": "Let's map the concepts we just learned back to the story.",
+    "items": [
+      { "story": "Each person asking their row number from the person in front of them", "concept": "Recursion" },
+      { "story": "Each time a person asks the question, it moves closer to the first row", "concept": "Recursive Case" },
+      { "story": "The question reaching the person in the first row", "concept": "Base Case" }
+    ]
+  },
+  {
+    "type": "mcq",
+    "question": "What is the purpose of the base case?",
+    "options": ["To call the function again.", "To stop the recursion chain.", "To terminate the program."],
+    "correctIndex": 1
+  },
+  {
+    "type": "mcq",
+    "question": "What is the purpose of the recursive case?",
+    "options": ["To move away from the base case.", "To move towards the base case.", "To neither move away nor towards the base case."],
+    "correctIndex": 1
+  },
+  {
+    "type": "mcq",
+    "question": "What is the main idea of solving a problem via recursion?",
+    "options": ["Solve a problem by dividing it into a smaller problem of the same nature.", "Solve a problem all at once.", "Solve a problem by converting it into another form."],
+    "correctIndex": 0
+  },
+  {
+    "type": "fact",
+    "question": "Can every problem be solved using recursion?",
+    "answer": "No. Recursion is useful when:\n\n- the problem can be divided into a smaller problem of the same kind\n- there is a clear stopping point"
+  },
+  { "type": "banner", "role": "end", "text": "Step 2 complete." }
+]
