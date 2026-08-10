@@ -36,3 +36,7 @@
 
 ## Aug 7, 2026 
 1. Started vibe-coding the feature.
+
+### Aug 8, 2026 - Aug 10, 2026
+1. Formally dropped Module 3 from the active feature scope to keep the MVP focused, simple, and feasible within time limits.
+2. Completed the recursion-feature.

@@ -96,3 +96,21 @@ This markdown file will contain all the project decisions that were during the c
 2. Adding concepts like call stack, head recursion and tail recursion will require a significant changes to the current flow design, and would require animation, etc. This is not feasible at present due to scarcity of time and resources.
 
 ---
+## Decision 5 : Dropping Module 3 from Current Scope
+
+### Info
+- Date : August 10, 2026
+- Status : Current
+
+### Context
+1. The initial curriculum plan included a third module focused on teaching learners how to design recursive functions and write Python code using interactive snippets and blanks.
+2. Due to time limitations and the need to keep the MVP small, meaningful, and simple[cite: 2], managing a third module exceeded the feasible scope for the current deadline.
+
+### Decision
+1. **Module 3 is dropped** from the current version. 
+2. The live feature scope is strictly restricted to the introductory case study and core concept steps.
+
+### Reason
+1. Trimming the scope prevents over-complication and ensures that the core intuition of recursion can be reliably delivered and tested within the available time and resources[cite: 2].
+
+---
