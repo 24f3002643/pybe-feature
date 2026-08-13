@@ -6,6 +6,8 @@ Main PyBe repository: [https://github.com/vicharanashala/pybe](https://github.co
 
 This repository contains the **Interactive Iteration Learning Module** (developed within `pybe-iteration-feature/`), a frontend-only React application built via iterative vibe-coding that guides learners through loop and iteration concepts using a narrative case study ("Finding Row Number in Dark Movie Theatre") and interactive components.
 
+---
+
 ## 🌟 Key Features
 
 - **Split-Pane "Dark Theater" Architecture:** A responsive 40/60 layout separating contextual 16:9 widescreen visuals from an interactive 3-zone reading and testing engine.
