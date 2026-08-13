@@ -57,7 +57,7 @@ This markdown file will contain all the project decisions that were during the c
 
 ### Info
 - Date : Aug 5, 2026
-- Status : Current
+- Status : Superseded
 
 ### Context 
 1. I planned to start the feature through a real life case study. In that case study, there would be one problem to solve and the problem will be solved via recursion approach. 
@@ -78,7 +78,7 @@ This markdown file will contain all the project decisions that were during the c
 
 ### Info 
 - Date : Aug 6, 2026
-- Status : Current
+- Status : Superseded
 
 ### Context
 1. The feature had various part like case study, teaching recursion concepts and teaching to design recursive feature.
@@ -100,7 +100,7 @@ This markdown file will contain all the project decisions that were during the c
 
 ### Info
 - Date : August 10, 2026
-- Status : Current
+- Status : Superseded
 
 ### Context
 1. The initial curriculum plan included a third module focused on teaching learners how to design recursive functions and write Python code using interactive snippets and blanks.
@@ -113,4 +113,20 @@ This markdown file will contain all the project decisions that were during the c
 ### Reason
 1. Trimming the scope prevents over-complication and ensures that the core intuition of recursion can be reliably delivered and tested within the available time and resources[cite: 2].
 
+---
+## Decision 6 : Changing Feature from Recursion to Iteration
+
+### Info
+- Date : August 11, 2026
+- Status : Current
+
+### Context
+1. I designed the feature on recursion, with the case study in which the row number of a person would be found using the idea of recursion.
+2. Showed the feature to Prakash Sir in the meet and his feedback was that the case study is good, but it has more flavour of iteration, rather than recursion. So if you could change it to iteration, it would be good.
+
+### Decision
+1. Dropped **Recursion** as my feature, and chosen **Iteration** as my new feature.
+
+### Reason
+1. Prakash sir feedback in the meet.
 ---

@@ -40,3 +40,11 @@
 ### Aug 8, 2026 - Aug 10, 2026
 1. Formally dropped Module 3 from the active feature scope to keep the MVP focused, simple, and feasible within time limits.
 2. Completed the recursion-feature.
+
+### Aug 11, 2026
+1. Showed the feature to Prakash Sir in the meet.
+2. Prakash sir feedback was that the case study is good, but it has more flavour of iteration, rather than recursion. So if you could change it to iteration, it would be good.
+
+### Aug 12, 2026 - Aug 13, 2026
+1. Redesigned the case study, with focus shifting to **iteration**.
+2. Completed the iteration feature implementation.
