@@ -1,4 +1,4 @@
-# Beat 1 of 12
+# Beat 1 of 18
 left-pane : {
     type : "image",
     src: "/assets/image-1.png"
@@ -12,7 +12,7 @@ right-pane :
 </div>
 ```
 
-# Beat 2 of 12
+# Beat 2 of 18
 left-pane : {
     type : "image",
     src: "/assets/image-2.png"
@@ -34,7 +34,7 @@ After a few moments, an announcement is made:
 </z-announcement>
 ```
 
-# Beat 3 of 12
+# Beat 3 of 18
 
 left-pane : {
     type : "image",
@@ -59,7 +59,7 @@ Raghav replies:
 
 ```
 
-# Beat 4 of 12
+# Beat 4 of 18
 left-pane : {
     type : "image",
     src: "/assets/image-4.png"
@@ -87,7 +87,7 @@ and so on...
 </ul>
 ```
 
-# Beat 5 of 12
+# Beat 5 of 18
 left-pane : {
     type : "image",
     src: "/assets/image-5.png"
@@ -108,10 +108,40 @@ He goes and sits beside Raghav.
 
 ```
 
-# Beat 6 of 12
+# Beat 6 of 18
+left-pane : {
+    type : "image",
+    src: "/assets/image-6.png"
+}
+
+right-pane :
+```html
+After two minutes, an usher walks through the theater carrying water bottles.
+<p></p>
+<i>(Note: An <b>usher</b> is a theater staff member who helps and guides the guests.)</i>
+<p></p>
+She knows the theater has exactly 20 rows.
+<p></p>
+<ul>
+<li>She starts at Row 1 and gives a water bottle to the first person in that row.</li>
+<li>She then moves to Row 2 and gives a water bottle to the first person there.</li>
+<li>She then moves to Row 3 and gives a water bottle to the first person there.</li>
+and so on...
+</ul>
+<p></p>
+She repeats the same action for every other row till Row 20 and then stops.
+<p></p>
+<br>
+After 15 minutes, lights were restored, and the movie continued.
+
+```
+
+
+
+# Beat 7 of 18
 left-pane : {
     type : "text",
-    content: `<h3 style:"font-size:20; justify-content:center; align-item:center; font-style:italics, bold;">Finding Pattern</h3>`
+    content: `<h3 style="font-size:20; justify-content:center; align-item:center; font-style:italics, bold;">Concept of Iteration</h3>`
 }
 
 
@@ -119,157 +149,287 @@ right-pane :
 ```html
 <h4>Overview</h4>
 <p></p>
-Do you see some repeated pattern in Tarun's action?
+Did you notice something in the action of Tarun and usher?
 <p></p>
-In each row, Tarun does the exact same thing :
-<ol>
-    <li>Checks if Raghav sitting in 5th seat of this row?</li>
-    <li>If yes, go and sit beside him</li>
-    <li>If not, then go to next row and repeat the same action</li>
-</ol>
+They did one common thing : <i>repeating same action again and again.</i>
 <p></p>
 <z-announcement>
     This is what iteration is!
 </z-announcement>
 <p></p>
-<b>Iteration :</b><i> Repeating certain actions again and again, until a condition is met.</i>
+<b>Iteration :</b><i> Repeating certain actions again and again.</i>
+<br>
+In Programming, iteration is also known as loops.
+<p></p>
+<br>
+Elements of loop/iteration :
+<ul>
+<li><b>Condition : </b><i>It determines whether the iteration will continue or not. If it is true, the iteration continues. If it becomes false, the iteration stops.</i></li>
+<li><b>Repeated Actions: </b><i>The set of actions which repeat in every iteration.</i></li>
+<li><b>Update Step: </b><i>Certain values are updated in every iteration to move closer to the loop termination.</i></li>
+</ul>
+
 ```
-# Beat 7 of 12
+
+# Beat 8 of 18
 left-pane : {
     type : "text",
-    content: `<h3 style:"font-size:20; justify-content:center; align-item:center; font-style:italics, bold;">In a Nutshell</h3>`
+    content: `<h3 style="font-size:20; justify-content:center; align-item:center; font-style:italics, bold;">Variety of Loops</h3>`
+}
+
+
+right-pane :
+```html
+<h4>Types of Loops</h4>
+<p></p>
+Iteration is used in two types of scenarios :
+<ul>
+    <li>Scenario 1 : When number of repetition is <b>known</b> beforehand.</li>
+    <li>Scenario 2 : When number of repetition is <b>unknown</b> beforehand.</li>
+</ul>
+<br><br>
+<p></p>
+These two scenarios are handled by two different types of loop :
+<ul>
+    <li><b>for</b> loop : used when number of repetition is <i>known</i> .</li>
+    <li><b>while</b> loop : used when number of repetition is <i>unknown</i>.</li>
+</ul>
+```
+
+# Beat 9 of 18
+left-pane : {
+    type : "text",
+    content: `<h3 style="font-size:20; justify-content:center; align-item:center; font-style:italics, bold;">Example of while loop</h3>`
+}
+
+
+right-pane :
+```html
+<h4>While loop</h4>
+<p></p>
+Let's learn while loop by example of Tarun.
+<p></p>
+In Tarun 's case :
+<ul>
+    <li><b>Repeated Action</b> : Checking for Raghav in 5th seat of each row.</li>
+    <li><b>Condition</b> : Till Raghav is found.</li>
+    <li><b>Update Step</b> : Going to next row.</li>
+    <li><b>Number of Repetition</b> : Not known beforehand.</li>
+</ul>
+<p></p>
+Tarun did not know beforehand how many times he has to repeat the action.
+<br>
+So Tarun 's search is an example of <b>while</b> loop.
+```
+
+# Beat 10 of 18
+left-pane : {
+    type : "text",
+    content: `<h3 style="font-size:20; justify-content:center; align-item:center; font-style:italics, bold;">Example of for loop</h3>`
+}
+
+
+right-pane :
+```html
+<h4>For loop</h4>
+<p></p>
+Let's learn for loop by example of usher.
+<p></p>
+In usher 's case :
+<ul>
+    <li><b>Repeated Action</b> : Giving the water bottle to the first person in the row.</li>
+    <li><b>Condition</b> : Till she reaches row 20.</li>
+    <li><b>Update Step</b> : Going to next row.</li>
+    <li><b>Number of Repetition</b> : known beforehand.</li>
+</ul>
+<p></p>
+Usher knew beforehand that she has to repeat the action 20 times - one for each row.
+<br>
+So usher going to each row and giving water bottle is an example of <b>for</b> loop.
+```
+
+# Beat 11 of 18
+left-pane : {
+    type : "text",
+    content: `<h3 style="font-size:20; justify-content:center; align-item:center; font-style:italics, bold;">Let's code while loop</h3>`
+}
+
+
+right-pane :
+```html
+<h4>While Loop Construct</h4>
+<p></p>
+Let's code Tarun 's search using while loop.
+<p></p>
+<ol>
+    <li><b>What need to be tracked in each iteration?</b> : row number, has raghav been found</li>
+    <li><b>What keeps the iteration continuing (condition)</b> : till raghav is found</li>
+    <li><b>What is the repeated action</b> : checking if raghav is sitting in 5th seat?</li>
+    <li><b>What changes each round</b> : move to next row if not found.</li>
+</ol>
+<br>
+Tarun did not know before how many times he has to repeat.
+<br> 
+So this is an example of <b>while</b> loop.
+<p></p>
+<br>
+<b>Python code :</b>
+<pre><code class="language-python">
+    row_number = 1  # starting from first row
+    raghav_found = False # starting condition of loop
+
+    while raghav_found == False:  #condition
+        if check_person_in_5th_seat(row_number) == "Raghav": #repeated action
+            raghav_found = True
+        else:
+            row_number = row_number + 1 # Update: Move to the next row
+</code></pre>
+When the loop ends, <code>row_number</code> contains the row in which Raghav is sitting.
+```
+
+
+# Beat 12 of 18
+left-pane : {
+    type : "text",
+    content: `<h3 style="font-size:20; justify-content:center; align-item:center; font-style:italics, bold;">Let's code for loop</h3>`
+}
+
+
+right-pane :
+```html
+<h4>For Loop Construct</h4>
+<p></p>
+Let's code usher distributing water bottle using for loop.
+<p></p>
+<ol>
+    <li><b>What keeps the iteration continuing (condition)</b> : till row 20 is reached</li>
+    <li><b>What is the repeated action</b> : giving water bottle to the first person in the row.</li>
+    <li><b>What changes each round</b> : move to next row after giving water bottle.</li>
+</ol>
+<br>
+Usher knew before that she has to repeat 20 times.
+<br> 
+So this is an example of <b>for</b> loop.
+<p></p>
+<br>
+<b>Python code :</b>
+<pre><code class="language-python">
+    for row_number in range(20): # repeats 20 times
+        give_water_bottle_to_first_person_in_row(row_number) # repeated action
+</code></pre>
+At the end of each iteration, value of <code>row_number</code> increases (i.e. moves to the next row).
+```
+
+
+# Beat 13 of 18
+left-pane : {
+    type : "text",
+    content: `<h3 style="font-size:20; justify-content:center; align-item:center; font-style:italics, bold;">In a Nutshell</h3>`
 }
 
 right-pane :
 ```html
 <h4>Summary</h4>
 <p></p>
+<b>Iteration : </b><i>Repeating certain actions again and again, for a fixed number of times, or as long as a condition is true.</i>
+<br>
+<p></p>
+Types of loop construct :
 <ul>
-<li><b>Iteration : </b><i>Repeating certain actions again and again, until a condition is met.</i></li>
-<li><b>Condition : </b><i>If the condition is true, the iteration continues. If it becomes false, the iteration stops.</i></li>
-<li><b>Repeated Actions: </b><i>The set of actions which repeat in every iteration.</i></li>
+    <li><b>for loop</b> : used when the iteration has to be repeated for fixed number of times.</li>
+    <li><b>while loop</b> : used when the iteration has to be repeated as long as a condition is true (i.e. number of iteration is not fixed).</li>
 </ul>
-<br>
-<p></p>
-Let's map the concepts learned back to the case study:
-<ol>
-    <li>Tarun checking in each row. - <b>Iteration</b></li>
-    <li>Did Tarun find Raghav in the previous row. - <b>Condition</b></li>
-    <li>Tarun checks for Raghav in each row, and update the row number in his mind. - <b>Repeated Actions</b></li>
-</ol>
 
 ```
 
-# Beat 8 of 12
+# Beat 14 of 18
 left-pane : {
-    type : "text",
-    content: `<h3 style="font-size:20px; justify-content:center; align-item:center; font-style:italic; font-weight:bold;">Loops in Python</h3>`
-}
-
-
-right-pane :
-```html
-<h4>Iterations in Python</h4>
-<p></p>
-In Programming, iteration is also known as loops.
-<br>
-In Python, there are two ways to do iteration :
-<ul>
-<li><b>for loop :</b><i>Used when number of iterations is fixed.</i></li>
-<li><b>while loop :</b><i>Used when number of iterations is not fixed, and iterations happens as long as some condition is correct.</i></li>
-</ul>
-<br>
-<p></p>
-<b>Construct of for loop:</b>
-<pre><code class="language-python">
-    for i in range(10): # repeats for 10 times
-        # repeated actions
-</code></pre>
-<p></p>
-<b>Constuct of while loop:</b>
-<pre><code class="language-python">
-    while(condition): # repeats as long as condition is True
-        # repeated actions
-</code></pre>
-<p></p>
-The case study was the example of while loop, because the number of iterations was not fixed, but continued till Tarun does not found Raghav.
-<pre><code class="language-python">
-    row_number = 1
-    raghav_found = False
-
-    while raghav_found == False:
-        # Action: Check the current row
-        if check_row(row_number) == "Raghav":
-            raghav_found = True
-        else:
-            # Update: Move to the next row
-            row_number = row_number + 1
-</code></pre>
-When the loop ends, <code>row_number</code> contains the row in which Raghav is sitting.
-```
-
-# Beat 9 of 12
-left-pane : {
-    type : "text",
-    content: `<h3 style:"font-size:20; justify-content:center; align-item:center; font-style:italics, bold;">Test your Understanding</h3>`
+type : "text",
+content: `<h3 style="font-size:20px; justify-content:center; align-item:center; font-style:italic; font-weight:bold;">Test your Understanding</h3>`
 }
 
 right-pane :
 ```html
-<h4>Question 1:</h4>
+<h4>Question 1: </h4>
+<p></p>
 <z-mcq>
-  <z-question>In Tarun's story, what represents the "Condition" that tells him to stop repeating his action?</z-question>
+  <z-question>In Tarun's <code>while</code> loop code, which line represents the <b>Update Step</b> that enables him to move to next row?</z-question>
   <z-options>
-    <z-option correct="false">When he reaches the very last row of the theater.</z-option>
-    <z-option correct="true">When he sees Raghav in the row.</z-option>
-    <z-option correct="false">When he checks Row 1.</z-option>
+    <z-option correct="false"><code>raghav_found = False</code></z-option>
+    <z-option correct="false"><code>if check_person_in_5th_seat(row_number) == "Raghav":</code></z-option>
+    <z-option correct="true"><code>row_number = row_number + 1</code></z-option>
   </z-options>
-  <z-explanation>Correct! Tarun will only keep looping through the rows *while* he hasn't found Raghav. Once he spots him at Row 12, the condition is met, and the loop stops!</z-explanation>
+  <z-explanation>Correct! The Update Step changes the state each round. By adding 1 to the row number, Tarun physically moves to the next row to continue his search.</z-explanation>
 </z-mcq>
 ```
 
-# Beat 10 of 12
+# Beat 15 of 18
 left-pane : {
-    type : "text",
-    content: `<h3 style:"font-size:20; justify-content:center; align-item:center; font-style:italics, bold;">Test your Understanding</h3>`
+type : "text",
+content: `<h3 style="font-size:20px; justify-content:center; align-item:center; font-style:italic; font-weight:bold;">Test your Understanding</h3>`
 }
 
 right-pane :
 ```html
-<h4>Question 2:</h4>
+<h4>Question 2: </h4>
+<p></p>
 <z-mcq>
-  <z-question>According to the case study, which of the following represents the "Repeated Action" inside Tarun's iteration?</z-question>
+  <z-question>Why does Tarun's <code>while</code> loop finally stop running?</z-question>
   <z-options>
-    <z-option correct="false">Calling Raghav on the phone to ask for his row number.</z-option>
-    <z-option correct="true">Checking the 5th seat for Raghav, and moving to the next row if he isn't there.</z-option>
-    <z-option correct="false">Sitting down beside Raghav once he is finally found.</z-option>
+    <z-option correct="false">Because he reaches Row 20.</z-option>
+    <z-option correct="true">Because the variable <code>raghav_found</code> becomes <code>True</code>.</z-option>
+    <z-option correct="false">Because the power comes back on in the theater.</z-option>
   </z-options>
-  <z-explanation>Correct! The repeated action is the specific block of tasks Tarun does over and over again until the condition (finding Raghav) is met.</z-explanation>
-</z-mcq>
-# Beat 11 of 12
-left-pane : {
-    type : "text",
-    content: `<h3 style:"font-size:20; justify-content:center; align-item:center; font-style:italics, bold;">Test your Understanding</h3>`
-}
-
-right-pane :
-```html
-<h4>Question 3:</h4>
-<z-mcq>
-  <z-question>Why the iteration in the case study is an example of <code>while</code> loop and not <code>for</code> loop?</z-question>
-  <z-options>
-    <z-option correct="false">Number of iterations is fixed</z-option>
-    <z-option correct="true">Number of iterations is not fixed.</z-option>
-    <z-option correct="false">None of the above.</z-option>
-  </z-options>
-  <z-explanation>Exactly! <code>while</code> loop is used, when the number of iterations is not known.</z-explanation>
+  <z-explanation>Exactly! The loop is programmed to run only <i>while</i> <code>raghav_found == False</code>. The moment he finds Raghav, the variable becomes <code>True</code>, the condition breaks, and the loop stops.</z-explanation>
 </z-mcq>
 ```
 
-# Beat 12 of 12
+
+# Beat 16 of 18
+left-pane : {
+type : "text",
+content: `<h3 style="font-size:20px; justify-content:center; align-item:center; font-style:italic; font-weight:bold;">Test your Understanding</h3>`
+}
+
+right-pane :
+```html
+<h4>Question 3: </h4>
+<p></p>
+<z-mcq>
+  <z-question>A security guard needs to check all 4 emergency exit doors of the theater.<br>Which loop should be used to write a program for this task?</z-question>
+  <z-options>
+    <z-option correct="true">A <code>for</code> loop.</z-option>
+    <z-option correct="false">A <code>while</code> loop.</z-option>
+  </z-options>
+  <z-explanation>Spot on! Because the exact number of doors (4) is known beforehand, the number of repetitions is fixed. Therefore, a <code>for</code> loop is the best choice.</z-explanation>
+</z-mcq>
+```
+
+# Beat 17 of 18
+left-pane : {
+type : "text",
+content: `<h3 style="font-size:20px; justify-content:center; align-item:center; font-style:italic; font-weight:bold;">Test your Understanding</h3>`
+}
+
+right-pane :
+```html
+<h4>Question 4: </h4>
+<p></p>
+<z-mcq>
+  <z-question>Raghav wants to eat popcorn from his bucket until the bucket is completely empty. He doesn't know exactly how many popcorn kernels are inside.<br>Which loop is best for this?</z-question>
+  <z-options>
+    <z-option correct="false">A <code>for</code> loop.</z-option>
+    <z-option correct="true">A <code>while</code> loop.</z-option>
+  </z-options>
+  <z-explanation>Correct! Since the exact number of popcorn kernels (the number of repetitions) is unknown beforehand, he must keep eating <i>while</i> the condition (bucket is not empty) is true.</z-explanation>
+</z-mcq>
+```
+
+
+# Beat 18 of 18
 left-pane : {
     type : "text",
-    content: `<h3 style:"font-size:20; justify-content:center; align-item:center; font-style:italics, bold;">Module Completed</h3>`
+    content: `<h3 style="font-size:20; justify-content:center; align-item:center; font-style:italics, bold;">Module Completed</h3>`
 }
 
 

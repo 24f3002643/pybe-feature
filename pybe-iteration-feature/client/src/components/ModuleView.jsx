@@ -91,11 +91,11 @@ export default function ModuleView({
   // Parse markdown into beat array
   const beats = useMemo(() => parseModuleMD(content), [content]);
 
-  const totalBeats = beats.length > 0 ? beats[0].totalBeats : 12;
+  const totalBeats = beats.length > 0 ? (beats[0].totalBeats || beats.length) : 18;
   const currentBeatIndex = Math.min(Math.max(1, currentBeat), totalBeats) - 1;
   const beatData = beats[currentBeatIndex] || {
     beatNumber: currentBeat,
-    totalBeats: 12,
+    totalBeats: 18,
     leftPane: { type: 'text', content: '' },
     rightPaneHtml: '',
     hasMcq: false

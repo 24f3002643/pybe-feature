@@ -1,7 +1,14 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import { Play, Sparkles } from 'lucide-react';
+import { parseModuleMD } from '../utils/moduleParser';
+import { rawModuleText } from '../data/moduleContent';
 
 export default function LandingPage({ onStartModule }) {
+  const totalBeats = useMemo(() => {
+    const beats = parseModuleMD(rawModuleText);
+    return beats.length > 0 ? (beats[0].totalBeats || beats.length) : 18;
+  }, []);
+
   return (
     <div className="flex w-full h-screen bg-slate-900 text-slate-200 overflow-hidden font-sans">
       {/* Left Section (40vw) */}
@@ -35,7 +42,7 @@ export default function LandingPage({ onStartModule }) {
                 <span className="px-2.5 py-0.5 rounded text-xs font-medium bg-blue-500/20 text-blue-300 border border-blue-500/30">
                   Module 1
                 </span>
-                <span className="text-xs text-slate-400">12 Beats</span>
+                <span className="text-xs text-slate-400">{totalBeats} Beats</span>
               </div>
               <h3 className="text-xl font-bold text-slate-100 mt-1">
                 Module 1: Understanding Iteration

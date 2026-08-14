@@ -129,4 +129,25 @@ This markdown file will contain all the project decisions that were during the c
 
 ### Reason
 1. Prakash sir feedback in the meet.
+
+---
+## Decision 7 : Natural flow of for and while loop, and Incrementally building code
+
+### Info
+- Date : August 13, 2026
+- Status : Current
+
+### Context
+1. Showed the new feature **iteration** to Prakash sir.
+2. Prakash sir said that :
+    - let for loop and while loop naturally come through the story.
+    - incrementally build the code for the case study.
+
+### Decision
+1. Redesign the case study, so that for loop and while loop naturally come through the story.
+2. Incrementally build the code for the case study.
+
+### Reason
+1. Prakash sir feedback in the meet.
+
 ---

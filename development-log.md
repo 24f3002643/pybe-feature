@@ -48,3 +48,10 @@
 ### Aug 12, 2026 - Aug 13, 2026
 1. Redesigned the case study, with focus shifting to **iteration**.
 2. Completed the iteration feature implementation.
+
+### Aug 13, 2026 - Aug 14, 2026
+1. Showed the new feature **iteration** to Prakash sir.
+2. Prakash sir said that :
+    - let for loop and while loop naturally come through the story.
+    - incrementally build the code for the case study.
+3. Made the changes suggested by the sir.

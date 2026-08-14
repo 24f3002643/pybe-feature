@@ -11,20 +11,20 @@ So he calls Raghav and ask :
 > **"Raghav, in which row are you sitting? I want to sit beside you."**
 
 Raghav replies : 
-> **"Rahul, I don't know my row number."**
+> **"Tarun, I don't know my row number."**
 
-So Rahul decides to find Raghav.
+So Tarun decides to find Raghav.
 
 He starts from Row 1 and checks whether Raghav is sitting there.
 
 Raghav is not there.
 
-So Rahul moves to Row 2 and checks again.
+So Tarun moves to Row 2 and checks again.
 
 Raghav is not there either.
 
 
-Rahul continues doing the same thing:
+Tarun continues doing the same thing:
 
 > Row 1 → Check  
 > Row 2 → Check  
@@ -33,8 +33,20 @@ Rahul continues doing the same thing:
 > ...
 
 
-Rahul reaches Row 12.
+Tarun reaches Row 12.
 
 He checks the row and finds Raghav.
 
-Rahul now knows that Raghav is sitting in Row 12, so he goes and sits beside him.
+Tarun now knows that Raghav is sitting in Row 12, so he goes and sits beside him.
+
+
+After two minutes of Tarun sitting,
+
+An usher walks through with water bottles. 
+She already knew that there are exactly 12 rows before she starts.
+
+
+
+She repeats the same action for Row 3, Row 4, and every other row until she reaches Row 12. After visiting all 12 rows, she stops.
+
+After 15 minutes, light was restored and movie continued.
