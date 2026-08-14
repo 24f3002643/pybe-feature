@@ -1,5 +1,11 @@
 # PyBe - Interactive Recursion Learning Module
 
+> **⚠️ ARCHIVE NOTICE: SUPERSEDED FEATURE ⚠️**
+> 
+> **This feature is inactive and was discarded.** During the development phase, based on pedagogical feedback, the project was officially pivoted from teaching "Recursion" to "Iteration". This directory and its contents remain strictly for historical logging and reference. 
+> 
+> 👉
+
 A repository to log research, design, and development for a contribution to **PyBe**, a project by the **Vicharanashala Lab for Education Design, IIT Ropar** designed to teach Python by focusing on computer and programming fundamentals over syntax. 
 
 Main PyBe repository: [https://github.com/vicharanashala/pybe](https://github.com/vicharanashala/pybe)
