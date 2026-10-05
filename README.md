@@ -6,6 +6,7 @@ PyBe is an open-source educational software that aims to teach principles of pro
 ## Contribution to PyBe
 - A "Case Study on Iteration" was contributed to PyBe as the part of open source contribution during my internship at **Vicharanashala Lab for Education Design, IIT Ropar**. 
 - This case study is developed within `pybe-iteration-feature/`, which is a frontend-only React application.
+- The React application was built via iterative vibe-coding.
 - Pull Request Link : [https://github.com/vicharanashala/pybe/pull/84](https://github.com/vicharanashala/pybe/pull/84)
 
 
