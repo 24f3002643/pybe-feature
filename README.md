@@ -1,10 +1,15 @@
 # PyBe Feature - Iteration Learning Module
 
-A repository to log research, design, and development for a contribution to **PyBe**, a project by the **Vicharanashala Lab for Education Design, IIT Ropar** designed to teach Python by focusing on computer and programming fundamentals over syntax. 
+A repository to log research, design, and development for a contribution to **PyBe**, a project by the **Vicharanashala Lab for Education Design, IIT Ropar**.   
+PyBe is an open-source educational software that aims to teach principles of programming through case studies using Python as the programming language.
+
+## Contribution to PyBe
+- A "Case Study on Iteration" was contributed to PyBe as the part of open source contribution during my internship at **Vicharanashala Lab for Education Design, IIT Ropar**. 
+- This case study is developed within `pybe-iteration-feature/`, which is a frontend-only React application.
+- Pull Request Link : [https://github.com/vicharanashala/pybe/pull/84](https://github.com/vicharanashala/pybe/pull/84)
+
 
 Main PyBe repository: [https://github.com/vicharanashala/pybe](https://github.com/vicharanashala/pybe)
-
-This repository contains the **Interactive Iteration Learning Module** (developed within `pybe-iteration-feature/`), a frontend-only React application built via iterative vibe-coding that guides learners through loop and iteration concepts using a narrative case study.
 
 ---
 
@@ -51,10 +56,9 @@ Open your browser and navigate to `http://localhost:5173`.
 │   ├── client/                   # Frontend React app source code & public assets
 │   ├── docs/                     # Design docs, grammar specifications, and changelogs
 │   ├── README.md                 # Feature-specific documentation
-│   └── VIBE_CODING_EVOLUTION.md  # Detailed changelog of post-build Vibe Coding refinements
 ├── README.md                     # Main repository overview
 └── vibe-coding-docs/             # Universal templates and agent instruction documents
 ```
 
 ## 🗄️ Archive
- There is another feature `pybe-recursion-feature` in `archieve` docs. During the development phase, based on pedagogical feedback, the feature was officially pivoted from teaching "Recursion" to "Iteration". This `pybe-recursion-feature` feature remain strictly for historical logging and reference. 
+ There is another feature `pybe-recursion-feature` in `archive` docs. During the development phase, based on pedagogical feedback, the feature was officially pivoted from teaching "Recursion" to "Iteration". This `pybe-recursion-feature` feature remain strictly for historical logging and reference. 
